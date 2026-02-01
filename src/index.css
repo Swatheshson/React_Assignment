@@ -1,0 +1,138 @@
+/* ===== Professional Form Styling ===== */
+.professional-form {
+  background-color: #ffffff;            /* clean white background */
+  padding: 2rem;                        /* comfortable padding */
+  border-radius: 12px;                  /* rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* soft shadow */
+  max-width: 500px;                     /* form width */
+  margin: 2rem auto;                     /* center on page */
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;                          /* spacing between fields */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* Form header/title */
+.professional-form h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+/* Input fields */
+.professional-form input,
+.professional-form select,
+.professional-form textarea {
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Focus effect */
+.professional-form input:focus,
+.professional-form select:focus,
+.professional-form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Labels */
+.professional-form label {
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 0.3rem;
+}
+
+/* Submit / primary buttons */
+.professional-form button[type="submit"] {
+  color: white;
+  background-color: #007bff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  align-self: flex-end;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect: only shadow & tiny lift */
+.professional-form button[type="submit"]:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  transform: translateY(-1px);
+}
+
+/* Cancel / secondary buttons */
+.professional-form button.secondary {
+  background-color: #f0f0f0;
+  color: #333;
+  margin-right: 0.5rem;
+}
+
+.professional-form button.secondary:hover {
+  background-color: #e0e0e0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .professional-form {
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+}
+
+/* Center the card title */
+.card-login .p-card-title {
+  text-align: center;
+  font-size: 1.8rem; /* optional: bigger title */
+}
+
+/* Center the submit button */
+.professional-form .p-button {
+  display: block;
+  margin: 1.5rem auto 0 auto; /* top margin + center horizontally */
+}
+
+/* Optional: adjust float labels spacing */
+.professional-form .p-float-label {
+  margin-bottom: 1rem;
+}
+
+/* Center checkbox horizontally if needed */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+body {
+  background-color: #e6f0fa; /* soft pastel blue */
+}
+
+/* index.css */
+.single-unique {
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #0d6efd; /* corporate blue */
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-bottom: 1rem; /* space from elements below */
+}
+
+.single-unique:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-2px);
+}

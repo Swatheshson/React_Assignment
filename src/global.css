@@ -1,0 +1,46 @@
+/* src/global.css */
+
+/* Card styling */
+.card-login {
+  width: 420px;
+  margin: 120px auto;
+  border-radius: 12px;
+  padding: 2rem;
+  background-color: var(--surface-color, #fff);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.form-login {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* FloatLabel inputs: larger input spacing */
+.form-login .p-inputtext-lg {
+  font-size: 1rem;
+  padding: 0.8rem;
+}
+
+/* Checkbox container */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Button full width */
+.form-login .p-button {
+  width: 100%;
+}
+
+/* Center the login page and allow spacing between children */
+.login-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2rem; /* adjust this for spacing between items */
+  flex-direction: column; /* optional if you stack items vertically */
+}
