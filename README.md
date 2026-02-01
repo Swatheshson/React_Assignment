@@ -26,11 +26,11 @@ Locally added products are stored in **localStorage**, and API products are fetc
    ```bash
    cd path-to-extracted-folder/src
 
-Install dependencies
+Install dependencies using the command below
 
 npm install react-scripts@latest
 
-Start the development server
+Start the development server using this command below
 
 npm start
 
@@ -42,15 +42,15 @@ Clone the repository
 
 git clone https://github.com/Swatheshson/React_Assignment.git
 
-Navigate to the project folder
+Navigate to the project folder using the commadn below
 
 cd React_Assignment/src
 
-Install dependencies
+Install dependencies using the command below
 
 npm install react-scripts@latest
 
-Start the development server
+Start the development server with the command below
 
 npm start
 
